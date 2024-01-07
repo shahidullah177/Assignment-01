@@ -9,37 +9,76 @@
 }
 
 
-/* Css start */
+
+
+/* Banner-section */
 .banner-section{
     background-image: url('/images/Banner\ Image.png');
     background-size: cover;
-    /* width: 100%; */
     height: 100%;
     background-repeat: no-repeat;
     padding-top: 200px;
     padding-bottom: 200px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 .banner-text{
     color:white;
     text-align:center;
-    width: 40%;
-   
+    width: 40%; 
 }
+
 .banner-text p{
     font-size: 32px;
     font-family: Merriweather;
-    font-weight: 400;
-    
+    font-weight: 400;  
 }
+
 .banner-text h1{
     font-size: 72px;
     font-family: Merriweather;
     font-weight: 900;
-    line-height: 95px;
-    
+    line-height: 95px;   
+}
+
+
+/* Contant-section */
+.contant{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.contant h1{
+    color: #FF0000;
+    font-size: 88px;
+    font-family: Inter;
+    font-weight: 700;
+    margin-top: 120px;
+    padding: 5px;
+}
+
+.contant p{
+    color: #FF0000;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    margin-top: 48px;
+    padding: 5px;
+}
+
+.contant h3{
+    color: #070211;
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 700;
+    margin-top: 8px;
+    padding: 5px;
+}
+
+.contant .image img{
+    width: 40%;
+    height: 100%;
+    padding: 20px 200px;
 }
