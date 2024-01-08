@@ -81,6 +81,7 @@
     width: 40%;
     height: 100%;
     padding: 20px 200px;
+    margin-top: 45px;
 }
 
 /* Welcome-section */
@@ -92,6 +93,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 85px;
     
 }
 .welcome-text{
@@ -252,8 +254,7 @@ width: auto;
 
 /* Portfolio- section */
 .portfolio-section{
-    margin-top: 120px;
-    margin: 0px auto;
+    margin: 130px auto;
     width: 85%;
 }
 .portfolio-section .text-item{
@@ -332,20 +333,99 @@ width: auto;
     padding: 15px 50px;
     background: white;
     border: none;
-    border-radius: 30px;
+    border-radius: 25px 0px 0px 25px;
 }
 .subs-btn button{
     background: #FF0000;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Inter;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: capitalize;
     word-wrap: break-word;
-    padding: 10px;
-    border-radius: 30px;
+    padding: 12px 12px;
+    border-radius: 0px 25px 25px 0px;
     border: none;
 }
 .subs-btn{
     margin-top: 30px;
+}
+
+
+/* Footer section */
+.footer-section{
+    background:  #070211;
+    width: 100%;
+    height: 77vh;
+}
+.foot-upper{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+    
+
+}
+.foot-top{
+    width: 30%;
+    padding: 55px;
+}
+.foot-top2{
+    width: 20%;
+    padding: 55px;
+}
+.foot-top p{
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 40px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+.foot-top2 h6{
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 40px;
+    word-wrap: break-word;
+    text-align: justify;
+} 
+.foot-middle{
+    text-align: center;
+}
+.foot-middle img{
+    padding: 20px;
+}
+.foot-down{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.foot-downp{
+    width: 22%;
+    margin-top: 10px;
+    padding: 30px;
+}
+.foot-btn{
+    width: 22%;
+    padding: 30px;
+   
+}
+.foot-downp p{
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.foot-btn button{
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    background: none;
+    border: none;
 }
