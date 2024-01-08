@@ -137,6 +137,42 @@ width: auto;
     margin-top: 50px;
     background: none;
 }
-button{
+
+/* Joinning section */
+.joinning-section{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
+    text-align: center;
+    padding: 50px;
+    margin-top: 120px;
+    width: 85%;
+    
+}
+.joinning-text h5{
+    color: #070211;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.joinning-text span{
+    color: #FF0000;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 56px;
+    word-wrap: break-word
+}
+.joinning-text button{
+    color: white;
+    background:#FF0000;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 35px;
     
 }
