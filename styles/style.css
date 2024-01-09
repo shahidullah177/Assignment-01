@@ -96,8 +96,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 85px;
-    
+    margin-top: 85px;   
 }
 .welcome-text{
     width: 70%;
@@ -179,7 +178,12 @@ width: auto;
     padding: 15px 30px;
     border-radius: 5px;
     margin-top: 35px;
-    
+    cursor: pointer;   
+}
+.joinning-text button:hover{
+    background: #562fc2;
+    color: #d0ef34;
+    transition: .5s;
 }
 
 /* Comming soon section */
@@ -297,13 +301,19 @@ width: auto;
 .portfolio-section .image-items{
    width: 100%;
 }
-.portfolio-section .image-items img{
-    padding: 5px;
-   margin: 5px;
+.portfolio-section .image-items img{ 
+   margin: 10px;
    width: 31%;
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px 2px grey;
+   transition: .2s;
 }
 
-
+.image-items img:hover{
+    transform: scale(1);
+    background-color: gray;
+    box-shadow: 15px 15px 20px 8px rgb(153, 132, 105);
+}
 
 /* Subscribe section */
 .subscribe-section{
@@ -351,6 +361,11 @@ width: auto;
     padding: 20px 40px;
     border-radius: 0px 25px 25px 0px;
     border: none;
+}
+.subs-btn button:hover{
+    background: #562fc2;
+    color: #d0ef34;
+    transition: .5s;
 }
 .subs-btn{
     margin-top: 30px;
