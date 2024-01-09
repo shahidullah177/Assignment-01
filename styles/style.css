@@ -14,7 +14,7 @@
 
 /* Banner-section */
 .banner-section{
-    background: rgba(0,0,0,0.5)url('/images/Banner\ Image.png');
+    background: rgba(0,0,0,0.5)url('../images/Banner\ Image.png');
     background-blend-mode: darken;
     background-size: cover;
     height: 100%;
@@ -88,7 +88,7 @@
 
 /* Welcome-section */
 .welcome-section{
-    background: rgba(0,0,0,0.5) url('/images/Vectorrr.png');
+    background: rgba(0,0,0,0.5) url('../images/Vectorrr.png');
     background-blend-mode: darken;
     background-repeat: no-repeat;
     height: 100%;
